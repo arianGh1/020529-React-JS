@@ -1,8 +1,8 @@
 .part1 {
   background-color: #282c34;
-  position: relative;
+  position: fixed;
   font-family: Arial, sans-serif;
-  width: 100%;
+  width: 1471;
   height: 785px;
 }
 
