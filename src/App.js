@@ -8,7 +8,7 @@ class App extends Component {
       <div className="App">
         <header>
           <h1>Your Trusted IT Support Partner</h1>
-          <h2>Welcome to Disn</h2>
+          <h2>Welcome to Disionix</h2>
         </header>
         <section>
           <h3>Special Digital Services</h3>
