@@ -1,9 +1,8 @@
 .part1 {
   background-color: #282c34;
-  position: fixed;
+  position: relative;
   font-family: Arial, sans-serif;
-  width: 1471;
-  height: 785px;
+  width: 100%;
 }
 
 .container1 {
@@ -24,7 +23,7 @@
 
 .container1 p {
   font-family: 'Quicksand', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   color: #FFFFFF;
   margin-top: 45px;
 }
