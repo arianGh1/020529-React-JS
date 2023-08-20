@@ -1,31 +1,29 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header>
+      <div className="part1" style={{ position: 'relative', width: '1471px', height: '785px' }}>
+        <div className="container2">
+          <img src="logo.png" alt="Logo" width="105" height="75" />
+        </div>
+        <div className="container3">
+          <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Why Us</a>
+          </nav>
+        </div>
+        <div className="container4">
+          <button className="btn">Let’s Talk</button>
+        </div>
+        <div className="container1">
           <h1>Your Trusted IT Support Partner</h1>
-          <h2>Welcome to Disionix</h2>
-        </header>
-        <section>
-          <h3>Special Digital Services</h3>
-          <p>We are working with 15 years experience</p>
-        </section>
-        <section>
-          <h3>Our Services</h3>
-          <ul>
-            <li>Website Design</li>
-            <li>Web Development</li>
-            <li>IT Support</li>
-            <li>Cyber Security</li>
-          </ul>
-        </section>
-        <footer>
-          <p>Copyright © 2023 Disn</p>
-        </footer>
+          <p>Your Trusted IT Support Partner</p>
+          <button className="btn">Get Started</button>
+        </div>
       </div>
     );
   }
