@@ -42,7 +42,12 @@ class App extends Component {
             <button className="btn">Read More</button>
           </div>
         </div>
+        <div className="etc-text">
+            <h1>Our Services</h1>
+            <h2>Special Digital Services</h2>
+        </div>
         <div className="part3">
+
           <div className="pt3_container1">
             <img src="Rectangle 5.png" className="pt3_photo1" />
             <h1>Oftware Troubleshooting and Support</h1>
@@ -58,6 +63,10 @@ class App extends Component {
             <h1>Network Setup and Optimization</h1>
             <p>Get your business connected with our expert network setup and optimization services. We'll design a secure and efficient network that suits your needs, </p>
           </div>
+        </div>
+
+        <div className="part4">
+
         </div>
       </div>
     );
