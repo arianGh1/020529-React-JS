@@ -139,15 +139,15 @@ body, html {
 
 .photo1 {
   width: 80%;
-  height: 80%;
+  height: 85%;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0%;
+  left: 0%;
 }
 
 .photo2 {
   width: 60%;
-  height: 60%;
+  height: 65%;
   position: absolute;
   top: 28%;
   left: 50%;
@@ -209,7 +209,7 @@ body, html {
   }
 
   .photo1 {
-    width: 65%;
+    width: 75%;
     height: 75%;
     position: absolute;
     top: 0;
@@ -217,11 +217,11 @@ body, html {
   }
   
   .photo2 {
-    width: 50%;
+    width: 60%;
     height: 52%;
     position: absolute;
     top: 28%;
-    left: 49%;
+    left: 54%;
   }
 
   .pt2_container2 {
