@@ -110,6 +110,23 @@ class App extends Component {
               <img src="Rectangle 9.png" className="pt4_photo1" />
           </div>
         </div>
+        <div className="part5">
+          <h4>Testimonial</h4>
+          <div className="pt5_container1">
+            <div className="text-container1">
+              <p>Je suis totalement séduit par l'engagement écologique de Boiséa. En tant que fervent défenseur de l'environnement, j'apprécie énormément leur approche éco-responsable. Les meubles Boiséa sont fabriqués à partir de matériaux durables, provenant de sources certifiées, et le modèle de pré-commande permet d'éviter le gaspillage et la surproduction. Je suis fier de posséder des meubles qui allient style, qualité et respect de la nature. Bravo à Boiséa pour leur contribution à un avenir plus durable</p>
+            </div>
+            <div className="text-container2">
+              <p>Les meubles Boiséa sont tout simplement sublimes. Leur esthétique raffinée et intemporelle ajoute une touche d'élégance à mon salon. Chaque pièce raconte une histoire unique, et l'attention portée aux détails est tout simplement remarquable. Je recommande vivement Boiséa à tous ceux qui recherchent des meubles haut de gamme qui allient style, qualité et unicité</p>
+            </div>
+            <div className="text-container3">
+              <p>J'ai récemment commandé un meuble de salon chez Boiséa et je suis absolument ravi de mon achat. La qualité de l'artisanat est tout simplement exceptionnelle. Chaque détail est soigneusement travaillé, ce qui confère au meuble une durabilité et une élégance incomparables. De plus, l'expérience de pré-commande a été fluide et le service client m'a offert une assistance personnalisée tout au long du processus. Boiséa est définitivement ma nouvelle référence en matière de mobilier de qualité</p>
+            </div>
+          </div>
+          <div className="pt5_container2">
+
+          </div>
+        </div>
         
       </div>
     );
