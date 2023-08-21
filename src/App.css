@@ -185,7 +185,7 @@ body, html {
 }
 .pt2_container2 .btn{
   font-family: 'Quicksand';
-  
+  font-size: 0.8vw;
   background-color: #232323;
   color : #FFFFFF;
   margin-bottom: 2%;
@@ -385,7 +385,7 @@ body, html {
 
 .pt4_container1 h1{
   font-family: "Quicksand";
-  font-size: 8px;
+  font-size: 1vw;
   opacity: 50%;
   margin-bottom: -5%;
   color: #000;
@@ -393,6 +393,7 @@ body, html {
 }
 
 .pt4_container1 h2{
+  
   font-family: "Gilory-Black";
   width: 100%;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -490,4 +491,50 @@ body, html {
   height: 15px;
   bottom: -10px;
   left: -1.2px;
+}
+.rectangle1 .btn {
+  width:70%;
+  height:20%;
+  font-size: 0.8vw;
+  font-family: 'Quicksand';
+  background-color: #232323;
+  color : #FFFFFF;
+}
+
+@media screen and (max-width: 840px) {
+  .part4 {
+    padding: 1%;
+  }
+
+  .pt4_container1 {
+    padding: 2%;
+  }
+
+  .pt4_container1 h1 {
+    font-size: 1vw;
+    margin-bottom: 2%;
+  }
+
+  .pt4_container1 h2 {
+    font-size: 3vw;
+  }
+
+  .pt4_container1 p {
+    font-size: 1vw;
+    margin-top: 2%;
+  }
+
+  .pt4_inside_container1 .rectangle1 h3,
+  .pt4_inside_container1 .rectangle2 h3 {
+    font-size: 1vw;
+  }
+
+  .pt4_inside_container1 .rectangle1 p,
+  .pt4_inside_container1 .rectangle2 p {
+    font-size: 10px;
+  }
+
+  .rectangle1 .btn {
+    font-size: 1vw;
+  }
 }

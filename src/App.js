@@ -87,6 +87,7 @@ class App extends Component {
                   <p className="tick-icon">Hardware Assistance</p>
                   <p className="tick-icon">Cybersecurity Solutions</p>
                   <p className="tick-icon">Managed IT Servicesy</p>
+                  <button className="btn">Read More</button>
                 </div>
                 <div className="rectangle2">
                   <div className="rect2_inner">
@@ -101,6 +102,7 @@ class App extends Component {
                   <p className="tick-icon">IT Consultation and Planning</p>
                   <p className="tick-icon">Data Backup and Recovery</p>
                   <p className="tick-icon">Remote Technical Support</p>
+                  
                 </div>
               </div>
           </div>
@@ -108,6 +110,7 @@ class App extends Component {
               <img src="Rectangle 9.png" className="pt4_photo1" />
           </div>
         </div>
+        
       </div>
     );
   }
