@@ -135,10 +135,11 @@ body, html {
   flex-direction: row;
   
   position: relative;
+  
 }
 
 .photo1 {
-  width: 80%;
+  width: 60%;
   height: 85%;
   position: absolute;
   top: 0%;
@@ -146,18 +147,18 @@ body, html {
 }
 
 .photo2 {
-  width: 60%;
+  width: 48%;
   height: 65%;
   position: absolute;
   top: 28%;
-  left: 50%;
+  left: 30%;
 }
 
 .pt2_container2 {
   margin-top : 1%;
   width: 40%;
   height: 10%;
-  padding-left: 8%;
+  padding-left: -3%;
 }
 
 .pt2_container2 h2 {
@@ -260,7 +261,7 @@ body, html {
 .etc-text h1{
   margin-bottom: -1%;
   font-family: "Quicksand";
-  font-size: 8px;
+  font-size: 1vw;
   opacity: 50%;
 }
 

@@ -9,12 +9,12 @@ class App extends Component {
           <div className="container2">
             <img src="logo.png" alt="Logo" width="30%" height="30%" />
           </div>
-          <div className="container3">
+          <div id="home" className="container3">
             <nav>
-              <a href="#">Home</a>
-              <a href="#">About Us</a>
-              <a href="#">Services</a>
-              <a href="#">Why Us</a>
+              <a href="#home">Home</a>
+              <a href="#about-section">About Us</a>
+              <a href="#services">Services</a>
+              <a href="#whyus">Why Us</a>
             </nav>
           </div>
           <div className="container4">
@@ -34,7 +34,7 @@ class App extends Component {
             <img src="Rectangle 3.png" alt="Photo 1" className="photo1" />
             <img src="Rectangle 4.png" alt="Photo 2" className="photo2" />
           </div>
-          <div className="pt2_container2">
+          <div id="about-section" className="pt2_container2">
             <h2>About US</h2>
             <h1>Welcome To Disionix</h1>
             <p>At Disionix, we are dedicated to being your trusted IT support partner. With a passion for technology and a commitment to exceptional customer service, we take pride in simplifying your technical challenges so you can focus on what matters most - your business.</p>
@@ -42,7 +42,7 @@ class App extends Component {
             <button className="btn">Read More</button>
           </div>
         </div>
-        <div className="etc-text">
+        <div id="services" className="etc-text">
             <h1>Our Services</h1>
             <h2>Special Digital Services</h2>
         </div>
@@ -66,7 +66,7 @@ class App extends Component {
         </div>
 
         <div className="part4">
-          <div className="pt4_container1">
+          <div id="whyus" className="pt4_container1">
               <h1>Why Us</h1>
               <h2>We Are Working With 15 Years Exprieence</h2>
               <p>Choosing the right IT support provider is crucial for businesses and individuals looking for reliable technical assistance. To persuade potential clients to choose your company, you need to highlight the unique value and advantages you offer. Below are some compelling reasons why clients should choose your IT company</p>
