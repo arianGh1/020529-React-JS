@@ -42,6 +42,23 @@ class App extends Component {
             <button className="btn">Read More</button>
           </div>
         </div>
+        <div className="part3">
+          <div className="pt3_container1">
+            <img src="Rectangle 5.png" className="pt3_photo1" />
+            <h1>Oftware Troubleshooting and Support</h1>
+            <p>Is your software acting up? Our team of experienced technicians is here to diagnose and resolve software-related issues efficiently.</p>
+          </div>
+          <div className="pt3_container2">
+            <img src="Rectangle 8.png" className="pt3_photo2" />
+            <h1>Hardware Assistance and Repairs</h1>
+            <p>From desktops to laptops, printers to routers, our hardware experts can handle it all. Whether you need assistance with setup, maintenance, or troubleshooting, </p>
+          </div>
+          <div className="pt3_container3">
+            <img src="Rectangle 7.png" className="pt3_photo3" />
+            <h1>Network Setup and Optimization</h1>
+            <p>Get your business connected with our expert network setup and optimization services. We'll design a secure and efficient network that suits your needs, </p>
+          </div>
+        </div>
       </div>
     );
   }
