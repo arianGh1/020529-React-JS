@@ -411,13 +411,16 @@ body, html {
   display: flex;
   flex-direction : row;
   justify-content: space-between;
-  padding: 2% 5%;
+  
   box-sizing: border-box;
+
 }
 
-.pt4_inside_inside_container1,
-.pt4_inside_inside_container2 {
-  display: flex;
-  flex-direction : column;
+
+.pt4_inside_container1 .rectangle1 h3,
+.pt4_inside_container1 .rectangle2 h3{
+  font-family: "Quicksand";
+  color:#333;
+  font-size: 13px;
 }
 
