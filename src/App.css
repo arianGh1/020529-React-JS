@@ -457,20 +457,20 @@ body, html {
 
 
 .svgContainer {
-  position: relative; /* Set the position property to relative */
+  position: relative; 
   align-self: center;
   padding-right: 8%
 }
 
 .svg1 {
-  position: absolute; /* Set the position property to absolute */
-  left: -3.5px; /* Set the top position to 0 */
+  position: absolute; 
+  left: -3.5px; 
   bottom: -12.5px;
  
 }
 
 .svg2 {
-  position: absolute; /* Set the position property to absolute */
+  position: absolute; 
  
   bottom: -10px;
   left: -1px;
@@ -485,7 +485,7 @@ body, html {
 }
 
 .mask {
-  position: absolute; /* Set the position property to absolute */
+  position: absolute; 
   width: 15px;
   height: 15px;
   bottom: -10px;
