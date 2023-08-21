@@ -70,8 +70,20 @@ class App extends Component {
               <h1>Why Us</h1>
               <h2>We Are Working With 15 Years Exprieence</h2>
               <p>Choosing the right IT support provider is crucial for businesses and individuals looking for reliable technical assistance. To persuade potential clients to choose your company, you need to highlight the unique value and advantages you offer. Below are some compelling reasons why clients should choose your IT company</p>
-              <div className="inside_container">
-                <h1>Hello</h1>
+              <div className="pt4_inside_container1">
+                <div className="pt4_indside_inside_container1">
+                  <h3>Expert Around The World </h3>
+                  <p> Hardware Assistance</p>
+                  <p>Cybersecurity Solutions</p>
+                  <p>Managed IT Servicesy</p>
+                </div>
+                <div className="pt4_indside_inside_container2">
+                  <h3>Best Practice For Busniess</h3>
+                  <p>IT Consultation and Planning</p>
+                  <p>Data Backup and Recovery</p>
+                  <p>Remote Technical Support</p>
+
+                </div>
               </div>
           </div>
           <div className="pt4_container2">

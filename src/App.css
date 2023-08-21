@@ -258,6 +258,7 @@ body, html {
 }
 
 .etc-text h1{
+  margin-bottom: -1%;
   font-family: "Quicksand";
   font-size: 8px;
   opacity: 50%;
@@ -339,7 +340,7 @@ body, html {
     font-size: 2vw;
     margin-bottom: 2%;
   }
-
+  
   .pt3_container1 p,
   .pt3_container2 p,
   .pt3_container3 p {
@@ -374,7 +375,9 @@ body, html {
   font-family: "Quicksand";
   font-size: 8px;
   opacity: 50%;
-  margin-bottom: 0%;
+  margin-bottom: -5%;
+  color: #000;
+  opacity: 25%;
 }
 
 .pt4_container1 h2{
@@ -393,16 +396,28 @@ body, html {
 
 }
 
-
-
 .pt4_container2 {
   padding: 3%;
   width: 100%;
 
 }
+
 .pt4_photo1 {
   width: 100%;
   height: auto;
 }
 
+.pt4_inside_container1 {
+  display: flex;
+  flex-direction : row;
+  justify-content: space-between;
+  padding: 2% 5%;
+  box-sizing: border-box;
+}
+
+.pt4_inside_inside_container1,
+.pt4_inside_inside_container2 {
+  display: flex;
+  flex-direction : column;
+}
 
