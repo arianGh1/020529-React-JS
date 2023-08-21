@@ -111,7 +111,11 @@ class App extends Component {
           </div>
         </div>
         <div className="part5">
+
           <h4>Testimonial</h4>
+          <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 60 50" fill="none">
+            <path d="M27.3801 38.3062C27.3801 35.1895 26.5655 32.5758 24.9363 30.4543C23.7818 28.9952 22.2163 28.0354 20.2365 27.5785C18.2886 27.1252 16.447 27.0933 14.7824 27.4793C14.2157 24.1147 15.1365 20.5518 17.474 16.7764C19.8115 13.0045 22.8397 10.1641 26.5336 8.26579L20.9343 0.208496C18.1009 1.611 15.4093 3.38891 12.9301 5.5387C10.4155 7.6885 8.18425 10.1606 6.20092 12.955C4.21758 15.7493 2.73009 18.905 1.77384 22.482C0.817585 26.0591 0.551961 29.707 1.00884 33.4612C1.60384 38.4195 3.20467 42.3862 5.81134 45.3258C8.41446 48.3043 11.6622 49.7918 15.5438 49.7918C18.9615 49.7918 21.7984 48.7647 24.0438 46.6822C26.268 44.6422 27.373 41.8479 27.373 38.2956L27.3801 38.3062ZM59.6943 38.3062C59.6943 35.1895 58.8797 32.5758 57.2505 30.4543C56.0959 28.9668 54.5234 28.0035 52.5507 27.5608C50.5674 27.1216 48.7505 27.1004 47.0965 27.4829C46.5299 24.1537 47.4153 20.5766 49.7599 16.787C52.0974 13.0329 55.1184 10.1995 58.8124 8.28704L53.2272 0.208496C50.3938 1.611 47.7199 3.38891 45.223 5.5387C42.6855 7.72035 40.4319 10.2119 38.5151 12.955C36.5459 15.7529 35.0797 18.905 34.1234 22.482C33.1559 26.057 32.8948 29.7863 33.3549 33.4612C33.9428 38.4195 35.5365 42.3862 38.1361 45.3258C40.7322 48.2795 43.9693 49.7599 47.8509 49.7599C51.2757 49.7599 54.1126 48.7329 56.358 46.6539C58.5786 44.6139 59.6943 41.8195 59.6943 38.2672V38.3062Z" fill="#C4C4C4"/>
+          </svg>
           <div className="pt5_container1">
             <div className="text-container1">
               <p>Je suis totalement séduit par l'engagement écologique de Boiséa. En tant que fervent défenseur de l'environnement, j'apprécie énormément leur approche éco-responsable. Les meubles Boiséa sont fabriqués à partir de matériaux durables, provenant de sources certifiées, et le modèle de pré-commande permet d'éviter le gaspillage et la surproduction. Je suis fier de posséder des meubles qui allient style, qualité et respect de la nature. Bravo à Boiséa pour leur contribution à un avenir plus durable</p>
@@ -124,7 +128,11 @@ class App extends Component {
             </div>
           </div>
           <div className="pt5_container2">
-
+            <img src="Ellipse 5.png" className="ellipse5" />
+            <div>
+              <h5>Rimsha Awaan</h5>
+              <h6>IT Manager</h6>
+            </div>
           </div>
         </div>
         
