@@ -352,6 +352,18 @@ body, html {
 }
 
 /* PART 3 HAS BEEN FINISHED */
+.tick-icon::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M20 6l-11 11-5-5 1.5-1.5 3.5 3.5 9.5-9.5z"/></svg>');
+  background-size: cover;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+
 
 
 .part4 {
@@ -421,6 +433,6 @@ body, html {
 .pt4_inside_container1 .rectangle2 h3{
   font-family: "Quicksand";
   color:#333;
-  font-size: 13px;
+  font-size: 10px;
 }
 
