@@ -90,9 +90,14 @@ class App extends Component {
                 </div>
                 <div className="rectangle2">
                   <div className="rect2_inner">
+                    <div className="svgContainer">
+                        <svg className="svg1" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 36 36" fill="none">
+                          <circle opacity="0.5" cx="18" cy="18" r="18" fill="#D9D9D9"/>
+                        </svg>
+                        <img src="Mask group.png" className="mask" />
+                      </div>
                     <h3>Best Practice For Busniess</h3>
                   </div>
-
                   <p className="tick-icon">IT Consultation and Planning</p>
                   <p className="tick-icon">Data Backup and Recovery</p>
                   <p className="tick-icon">Remote Technical Support</p>
@@ -101,7 +106,6 @@ class App extends Component {
           </div>
           <div className="pt4_container2">
               <img src="Rectangle 9.png" className="pt4_photo1" />
-              
           </div>
         </div>
       </div>

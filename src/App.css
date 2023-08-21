@@ -428,7 +428,9 @@ body, html {
 
 }
 
-
+.pt4_inside_container1 .rectangle2 {
+  padding-left:12%;
+}
 .pt4_inside_container1 .rectangle1 h3,
 .pt4_inside_container1 .rectangle2 h3{
   font-family: "Quicksand";
@@ -447,7 +449,11 @@ body, html {
   flex-direction: row;
 }
 
+.rect2_inner {
+  display: flex;
+  flex-direction: row;
 
+}
 
 
 .svgContainer {
@@ -458,7 +464,7 @@ body, html {
 
 .svg1 {
   position: absolute; /* Set the position property to absolute */
-  left: -0.5px; /* Set the top position to 0 */
+  left: -3.5px; /* Set the top position to 0 */
   bottom: -12.5px;
  
 }
@@ -467,9 +473,21 @@ body, html {
   position: absolute; /* Set the position property to absolute */
  
   bottom: -10px;
-  left: 2px;
+  left: -1px;
+
  
 }
 .rect1_inner h3 {
   padding-left: 8%;
+}
+.rect2_inner h3 {
+  padding-left: 8%;
+}
+
+.mask {
+  position: absolute; /* Set the position property to absolute */
+  width: 15px;
+  height: 15px;
+  bottom: -10px;
+  left: -1.2px;
 }
