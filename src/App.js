@@ -39,6 +39,7 @@ class App extends Component {
             <h1>Welcome To Disionix</h1>
             <p>At Disionix, we are dedicated to being your trusted IT support partner. With a passion for technology and a commitment to exceptional customer service, we take pride in simplifying your technical challenges so you can focus on what matters most - your business.</p>
             <p>Since our establishment in [Year of Establishment], we have been on a relentless mission to deliver efficient and reliable IT support services to businesses and individuals alike.</p>
+            <button className="btn">Read More</button>
           </div>
         </div>
       </div>

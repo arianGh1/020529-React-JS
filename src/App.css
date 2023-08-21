@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Gilroy-Black';
+  src: url('./fonts/Gilroy-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./fonts/Quicksand-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 body, html {
   height: 100%;
   margin: 0;
@@ -97,7 +109,15 @@ body, html {
     margin-left: 20px;
   }
 }
+
+
+
  /*PART 1 HAS BEEN FINISHED */
+
+
+
+
+
 
  .part2 {
   margin-top : 10%;
@@ -119,7 +139,7 @@ body, html {
 
 .photo1 {
   width: 80%;
-  height: 90%;
+  height: 80%;
   position: absolute;
   top: 0;
   left: 0;
@@ -127,15 +147,16 @@ body, html {
 
 .photo2 {
   width: 60%;
-  height: 65%;
+  height: 60%;
   position: absolute;
-  top: 167px;
-  left: 255px;
+  top: 28%;
+  left: 50%;
 }
 
 .pt2_container2 {
-  margin-top : 5%;
+  margin-top : 1%;
   width: 50%;
+  height: 10%;
   padding-left: 15%;
 }
 
@@ -157,10 +178,18 @@ body, html {
 
 .pt2_container2 p {
   font-family: 'Quicksand', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   color: #333333;
   margin-bottom: 2%;
   line-height: 1.5;
+}
+.pt2_container2 .btn{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  background-color: #232323;
+  color : #FFFFFF;
+  margin-bottom: 2%;
+  
 }
 
 @media screen and (max-width: 830px) {
@@ -179,23 +208,24 @@ body, html {
   }
 
   .photo1 {
-    width: 48%;
-    height: auto;
-    position: relative;
+    width: 55%;
+    height: 60%;
+    position: absolute;
     top: 0;
     left: 0;
   }
-
+  
   .photo2 {
-    width: 48%;
-    height: auto;
+    width: 40%;
+    height: 44%;
     position: absolute;
-    top: 20%;
-    left: 25%;
+    top: 23%;
+    left: 35%;
   }
 
   .pt2_container2 {
     width: 100%;
+    margin-bottom: 10%;
     padding: 2% 0;
   }
 
@@ -208,6 +238,14 @@ body, html {
   }
 
   .pt2_container2 p {
-    font-size: 2vw;
+    font-size: 1vw;
+  }
+  .pt2_container2 .btn{
+    font-family: 'Quicksand';
+    font-size: 1vw;
+    background-color: #232323;
+    color : #FFFFFF;
+    margin-bottom: 2%;
+    
   }
 }
