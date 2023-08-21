@@ -433,6 +433,43 @@ body, html {
 .pt4_inside_container1 .rectangle2 h3{
   font-family: "Quicksand";
   color:#333;
-  font-size: 10px;
+  font-size: 13px;
+}
+.pt4_inside_container1 .rectangle1 p,
+.pt4_inside_container1 .rectangle2 p{
+  font-family: "Quicksand";
+  color:#333;
+  font-size: 7px;
 }
 
+.rect1_inner {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+.svgContainer {
+  position: relative; /* Set the position property to relative */
+  align-self: center;
+  padding-right: 8%
+}
+
+.svg1 {
+  position: absolute; /* Set the position property to absolute */
+  left: -0.5px; /* Set the top position to 0 */
+  bottom: -12.5px;
+ 
+}
+
+.svg2 {
+  position: absolute; /* Set the position property to absolute */
+ 
+  bottom: -10px;
+  left: 2px;
+ 
+}
+.rect1_inner h3 {
+  padding-left: 8%;
+}
