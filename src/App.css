@@ -157,7 +157,7 @@ body, html {
   margin-top : 1%;
   width: 50%;
   height: 10%;
-  padding-left: 15%;
+  padding-left: 8%;
 }
 
 .pt2_container2 h2 {
@@ -184,8 +184,8 @@ body, html {
   line-height: 1.5;
 }
 .pt2_container2 .btn{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 18px;
+  font-family: 'Quicksand';
+  
   background-color: #232323;
   color : #FFFFFF;
   margin-bottom: 2%;
@@ -197,36 +197,38 @@ body, html {
     margin-top : 10%;
     flex-direction: row;
     height: auto;
-    
+    padding: -50%;
   }
 
   .pt2_container1 {
-    width: 100%;
+    width: 50%;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
+    padding-left: 5%;
   }
 
   .photo1 {
-    width: 55%;
-    height: 60%;
+    width: 65%;
+    height: 75%;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 9%;
   }
   
   .photo2 {
-    width: 40%;
-    height: 44%;
+    width: 50%;
+    height: 52%;
     position: absolute;
-    top: 23%;
-    left: 35%;
+    top: 28%;
+    left: 49%;
   }
 
   .pt2_container2 {
     width: 100%;
     margin-bottom: 10%;
-    padding: 2% 0;
+    padding-right: 5%;
+    
   }
 
   .pt2_container2 h2 {
@@ -242,7 +244,7 @@ body, html {
   }
   .pt2_container2 .btn{
     font-family: 'Quicksand';
-    font-size: 1vw;
+    font-size: 0.8vw;
     background-color: #232323;
     color : #FFFFFF;
     margin-bottom: 2%;
