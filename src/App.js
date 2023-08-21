@@ -66,7 +66,18 @@ class App extends Component {
         </div>
 
         <div className="part4">
-
+          <div className="pt4_container1">
+              <h1>Why Us</h1>
+              <h2>We Are Working With 15 Years Exprieence</h2>
+              <p>Choosing the right IT support provider is crucial for businesses and individuals looking for reliable technical assistance. To persuade potential clients to choose your company, you need to highlight the unique value and advantages you offer. Below are some compelling reasons why clients should choose your IT company</p>
+              <div className="inside_container">
+                <h1>Hello</h1>
+              </div>
+          </div>
+          <div className="pt4_container2">
+              <img src="Rectangle 9.png" className="pt4_photo1" />
+              
+          </div>
         </div>
       </div>
     );
